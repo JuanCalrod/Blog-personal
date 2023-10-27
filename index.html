@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'><link rel="stylesheet" href="./style.css">
+  <title>Blog Personal</title>
+</head>
+<body>
+  <main>
+    <div class="sidebar">
+      <div class="logo-details">
+        <i class='bx bxl-c-plus-plus icon'></i>
+        <div class="logo_name">Juan Calvete</div>
+        <i class='bx bx-menu' id="btn"></i>
+      </div>
+      <ul class="nav-list">
+        <li>
+          <i class='bx bx-search'></i>
+          <input type="text" placeholder="Search...">
+          <span class="tooltip">Search</span>
+        </li>
+        <li>
+          <a href="#Home">
+            <i class='bx bx-grid-alt'></i>
+            <span class="links_name">Dashboard</span>
+          </a>
+          <span class="tooltip">Dashboard</span>
+        </li>
+        <li>
+          <a href="#Hobbies">
+            <i class='bx bx-user'></i>
+            <span class="links_name">User</span>
+          </a>
+          <span class="tooltip">User</span>
+        </li>
+        <li>
+          <a href="#Deportes">
+            <i class='bx bx-chat'></i>
+            <span class="links_name">Messages</span>
+          </a>
+          <span class="tooltip">Messages</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-pie-chart-alt-2'></i>
+            <span class="links_name">Analytics</span>
+          </a>
+          <span class="tooltip">Analytics</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-folder'></i>
+            <span class="links_name">File Manager</span>
+          </a>
+          <span class="tooltip">Files</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-cart-alt'></i>
+            <span class="links_name">Order</span>
+          </a>
+          <span class="tooltip">Order</span>
+        </li>
+    </div>
+    <section class="home-section">
+      <div class="text"><h2>Home</h2></div>
+      <div id="Home">
+        <section id="aboutme">
+            <h1 class="section-title">Sobre Mí</h1> <!-- Agrega un título con estilo -->
+            <section class="aboutme01">
+                <div class="aboutme">
+                    <ul class="image-list"> <!-- Agrega una clase a la lista de imágenes -->
+                      <li>
+                        <img src="./img/Juan Calvete.jpg" width="200px" alt="Juan Calvete">
+                      </li>
+                    </ul>
+                    <div class="aboutme2">
+                        <p class="aboutme-description">¡Hola! Soy Juan Calvete, un apasionado de la vida y la tecnología. Aquí comparto un poco sobre mí y mis intereses.
+                            <a class="leer-mas" href="#">Leer Más</a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </div>
+
+    <section id="Hobbies">
+        <div id="hobbies">
+            <h1 class="section-title">Mis Pasatiempos</h1> <!-- Agrega un título con estilo -->
+            <section class="hobbies01">
+                <div class="hobbies">
+                    <ul class="image-list">
+                        <img src="./img/Imagen de WhatsApp 2023-10-06 a las 17.36.05_e59ac91e.jpg" width="150px" alt="Hobby 1">
+                        <img src="./img/Imagen de WhatsApp 2023-10-06 a las 21.48.15_15d465b5.jpg" width="150px" alt="Hobby 2">
+                        <img src="./img/Imagen de WhatsApp 2023-10-06 a las 21.48.15_566d1b3b.jpg" width="150px" alt="Hobby 3">
+                    </ul>
+                    <div class="hobbies2">
+                        <p class="hobbies-description">Cuando no estoy trabajando, me encanta dedicar tiempo a mis pasatiempos. Descubre lo que me apasiona.
+                            <a class="leer-mas" href="#">Leer Más</a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <div id="Deportes">
+        <section id="deportes">
+            <h1 class="section-title">Mi Pasión por los Deportes</h1> <!-- Agrega un título con estilo -->
+            <section class="deportes01">
+                <div class="deportes">
+                    <ul class="image-list"> <!-- Agrega una clase a la lista de imágenes -->
+                        <img src="./img/Bicicleta-Naranja_imagen8.jpg" width="100px" alt="Deporte 1">
+                        <img src="./img/Bmx.jpg" width="100px" alt="Deporte 2">
+                        <img src="./img/hqdefault.jpg" width="100px" alt="Deporte 3">
+                        <img src="./img/taekwondo.jpg" width="100px" alt="Deporte 4">
+                    </ul>
+                </div>
+                <div class="deportes2">
+                    <p class="deportes-description">El deporte es una parte fundamental de mi vida. Descubre más sobre mis actividades deportivas y logros.
+                        <a class="leer-mas" href="#">Leer Más</a>
+                    </p>
+                </div>
+            </section>
+        </section>
+    </div>
+    </section>
+    <div id="RedesSociales">
+      <section id="redes-sociales">
+          <h1 class="section-title">Mis Redes Sociales</h1>
+          <h2>Contacto</h2>
+          <section class="redes-sociales-content">
+              <div class="redes-sociales-icons">
+                  <!-- Icono de Instagram -->
+                  <h4>Instagram</h4>
+                  <a href="https://www.instagram.com/juancalvetel" target="_blank">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa03T74YxHPY4bbUWyTeFdAGViKfvlH2iq284SQEV1Ig&s" alt="Instagram">
+                  </a>
+                  <h4>linkedin</h4>
+                  <!-- Icono de LinkedIn -->
+                  <a href="https://www.linkedin.com/in/juan-camilo-calvete-leaño-453134262/" target="_blank">
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/640px-LinkedIn_logo_initials.png" alt="LinkedIn">
+                  </a>
+                  <h4>WhatsApp</h4>
+                  <!-- Icono de WhatsApp -->
+                  <a href="https://w.app/BlogPersonal" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/512px-WhatsApp.svg.png" alt="WhatsApp">
+                </a>
+              </div>
+          </section>
+      </section>
+  </div>  
+  </main>
+</body>
+</html>
