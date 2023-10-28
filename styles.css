@@ -307,3 +307,59 @@ section {
   font-weight: 500;
   margin: 18px;
 }
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+  .sidebar {
+    width: 60px;
+  }
+
+  .sidebar .logo-details .icon,
+  .sidebar .logo-details .logo_name {
+    opacity: 1;
+  }
+
+  .sidebar.open .logo-details .icon,
+  .sidebar.open .logo-details .logo_name {
+    opacity: 0;
+  }
+
+  .sidebar .bx-search {
+    display: none;
+  }
+
+  .sidebar input {
+    width: 100%;
+  }
+
+  .sidebar li a {
+    border-radius: 0;
+  }
+
+  .home-section {
+    position: relative;
+    width: 100%;
+    left: 0;
+    margin-top: 60px;
+  }
+
+  .sidebar.open {
+    width: 100%;
+  }
+
+  .sidebar .logo-details #btn {
+    display: block;
+  }
+
+  .sidebar li a .links_name {
+    display: none;
+  }
+
+  .sidebar.open li a .links_name {
+    display: block;
+  }
+
+  .sidebar li.profile {
+    height: 50px;
+  }
+}
